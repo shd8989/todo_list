@@ -1,0 +1,36 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.8",
+    "expo": "^37.0.7",
+    "expo-notifications": "^0.1.7",
+    "i": "^0.3.7",
+    "ios": "0.0.1",
+    "moment": "^2.29.1",
+    "nanoid": "^3.1.28",
+    "npm": "^7.24.1",
+    "prop-types": "^15.7.2",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-alarm-clock": "^2.0.2",
+    "react-native-alarm-notification": "^1.8.0",
+    "react-native-get-random-values": "^1.7.0",
+    "react-native-push-notification": "^8.1.1",
+    "react-native-simple-alarm": "^1.0.4",
+    "react-native-web": "~0.11.7",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0"
+  },
+  "private": true
+}
